@@ -28,10 +28,6 @@ OPTIONS:
 The beam size (default 100). Use 0 for infinite beam.
 
 
---verbose
-```
-Prints out runtime in seconds. (default False)
-```
 
 ## Example Run Predict
 ```
