@@ -27,14 +27,6 @@ OPTIONS:
 ```
 The beam size (default 100). Use 0 for infinite beam.
 ```
---verbose
-```
-Prints out beamsize, Log Partition Coefficient or free energy of ensemble (-V mode) and runtime information. (default False)
-```
---sharpturn
-```
-Enable sharpturn. (default False)
-```
 -o FILE_NAME
 ```
 Outputs base pairing probability matrix to a file with user specified name. (default False)
@@ -55,7 +47,6 @@ Partition function calculation only. (default False)
 ```
 Only output base pair probability larger than user specified threshold between 0 and 1. (DEFAULT=0.0)
 ```
-
 --dumpforest
 ```
 dump forest (all nodes with inside [and outside] log partition functions but no hyperedges) for downstream tasks such as sampling and accessibility (DEFAULT=None)
