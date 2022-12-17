@@ -91,7 +91,7 @@ void BeamCKYParser::postprocess() {
 
 bool BeamCKYParser::check_pairable_ij(vector<int> & SS_fast_i, vector<int> & SS_fast_j, float ** ribo, vector<vector<ribo_state>> & pscore, int i, int j){ //it is hc_decompose  = fc->hc->mx[n * i + j]; in mfe.c
 
-    // in hard.c, RNAalifold use this to check if two pairs can be paired, 0 no, 63(VRNA_CONSTRAINT_CONTEXT_ALL_LOOPS = 63) yes
+    // in hard.c, RNAalifold use this to check if column i and column j can be paired, 0 no, 63(VRNA_CONSTRAINT_CONTEXT_ALL_LOOPS = 63) yes
     // if ((sn[i] != sn[j]) ||
     //       (((j - i + 1) <= md->max_bp_span) && ((j - i - 1) >= md->min_loop_size))) {
     //     printf("in hard.c line 772 (%d %d) (%d %d) (%d %d) (%d %d)\n", sn[i] , sn[j], i,j,j - i - 1,md->max_bp_span,j - i - 1,md->min_loop_size);
