@@ -1,4 +1,4 @@
-
+// some functions in ribo.h are copied from https://www.tbi.univie.ac.at/RNA/#
 #define turn 3 // follow Vienna RNAalifold
 #define NONE -10000 /* score for forbidden pairs */
 
@@ -841,7 +841,7 @@ get_ribosum(const vector<string> &Alseq,
               ribo[i][j] = dm_12_11[i][j];
           break;
         default:
-          printf("da hats was grobes im dmchoose\n");
+          printf("this function is copied from ViennaRNA Package\n");
       }
       break;
     case 13:
@@ -887,7 +887,7 @@ get_ribosum(const vector<string> &Alseq,
               ribo[i][j] = dm_13_12[i][j];
           break;
         default:
-          printf("da hats was grobes im dmchoose\n");
+          printf("this function is copied from ViennaRNA Package\n");
       }
       break;
     case 14:
@@ -938,7 +938,7 @@ get_ribosum(const vector<string> &Alseq,
               ribo[i][j] = dm_14_13[i][j];
           break;
         default:
-          printf("da hats was grobes im dmchoose\n");
+          printf("this function is copied from ViennaRNA Package\n");
       }
       break;
     case 15:
@@ -994,7 +994,7 @@ get_ribosum(const vector<string> &Alseq,
               ribo[i][j] = dm_15_14[i][j];
           break;
         default:
-          printf("da hats was grobes im dmchoose\n");
+          printf("this function is copied from ViennaRNA Package\n");
       }
       break;
     case 16:
@@ -1055,7 +1055,7 @@ get_ribosum(const vector<string> &Alseq,
               ribo[i][j] = dm_16_15[i][j];
           break;
         default:
-          printf("da hats was grobes im dmchoose\n");
+          printf("this function is copied from ViennaRNA Package\n");
       }
       break;
     case 17:
@@ -1121,7 +1121,7 @@ get_ribosum(const vector<string> &Alseq,
               ribo[i][j] = dm_17_16[i][j];
           break;
         default:
-          printf("da hats was grobes im dmchoose\n");
+          printf("this function is copied from ViennaRNA Package\n");
       }
       break;
     case 18:
@@ -1192,7 +1192,7 @@ get_ribosum(const vector<string> &Alseq,
               ribo[i][j] = dm_18_17[i][j];
           break;
         default:
-          printf("da hats was grobes im dmchoose\n");
+          printf("this function is copied from ViennaRNA Package\n");
       }
       break;
     case 19:
@@ -1268,7 +1268,7 @@ get_ribosum(const vector<string> &Alseq,
               ribo[i][j] = dm_19_18[i][j];
           break;
         default:
-          printf("da hats was grobes im dmchoose\n");
+          printf("this function is copied from ViennaRNA Package\n");
       }
       break;
     case 20:
@@ -1349,11 +1349,11 @@ get_ribosum(const vector<string> &Alseq,
               ribo[i][j] = dm_20_19[i][j];
           break;
         default:
-          printf("da hats was grobes im dmchoose\n");
+          printf("this function is copied from ViennaRNA Package\n");
       }
       break;
     default:
-      printf("da hats was grobes im dmchoose\n");
+      printf("this function is copied from ViennaRNA Package\n");
   }
   return ribo;
 }
